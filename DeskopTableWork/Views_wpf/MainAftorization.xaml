@@ -1,0 +1,35 @@
+﻿<Window x:Class="DeskopTableWork.Views_wpf.MainAftorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeskopTableWork.Views_wpf"
+        mc:Ignorable="d"
+        Title="MainAftorization" Height="450" Width="800">
+    <Grid>
+        <ListView Margin="10,48,330,49" x:Name="People" MouseDoubleClick="People_MouseDoubleClick"  >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="айди" DisplayMemberBinding="{Binding Id }"/>
+                    <GridViewColumn Header="фамилия" DisplayMemberBinding="{Binding Surname}"/>
+                    <GridViewColumn Header="имя" DisplayMemberBinding="{Binding  Name}"/>
+                    <GridViewColumn Header="отчество" DisplayMemberBinding="{Binding Lastname}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Добавить" x:Name="AddPerson" HorizontalAlignment="Left"  Margin="491,289,0,0" VerticalAlignment="Top" Width="86" Click="AddPerson_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="644,58,0,0" Text=""  x:Name="Lastname" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="491,58,0,0" Text="Фамилия" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="644,93,0,0" Text=""  x:Name="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="491,93,0,0" Text="Имя" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="644,132,0,0" Text=""  x:Name="Surname" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="491,132,0,0" Text="Отчество" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="644,170,0,0" Text=""  x:Name="Phone" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="491,170,0,0" Text="Телефон" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="644,211,0,0" Text=""  x:Name="Adress" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="491,211,0,0" Text="Адресс" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="644,245,0,0" Text=""  x:Name="Dop" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="491,245,0,0" Text="Замечание" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+
+    </Grid>
+</Window>

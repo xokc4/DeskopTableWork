@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskopTableWork", "DeskopTableWork\DeskopTableWork.csproj", "{4CFCB8E5-9B18-4073-AEA7-B25C112213EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CFCB8E5-9B18-4073-AEA7-B25C112213EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFCB8E5-9B18-4073-AEA7-B25C112213EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFCB8E5-9B18-4073-AEA7-B25C112213EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFCB8E5-9B18-4073-AEA7-B25C112213EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1958427-91DF-4192-9695-A64E6FF67908}
+	EndGlobalSection
+EndGlobal

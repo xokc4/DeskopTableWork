@@ -1,0 +1,29 @@
+﻿<Window x:Class="DeskopTableWork.Views_wpf.Full_Information"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeskopTableWork.Views_wpf"
+        mc:Ignorable="d"
+        Title="Full_Information" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="180,78,0,0" Text=""  x:Name="Lastname" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,78,0,0" Text="Фамилия" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,113,0,0" Text=""  x:Name="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,113,0,0" Text="Имя" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,152,0,0" Text=""  x:Name="Surname" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,152,0,0" Text="Отчество" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,190,0,0" Text=""  x:Name="Phone" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,190,0,0" Text="Телефон" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,231,0,0" Text=""  x:Name="Adress" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,231,0,0" Text="Адресс" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,265,0,0" Text=""  x:Name="Dop" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,265,0,0" Text="Замечание" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="27,43,0,0" Text="Айди" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <Button Content="Изменить" x:Name="Save"  HorizontalAlignment="Left" Margin="27,332,0,0" VerticalAlignment="Top" Width="94" Click="Save_Click"/>
+        <Button Content="Удалить" x:Name="Delete"  HorizontalAlignment="Left" Margin="180,332,0,0" VerticalAlignment="Top" Width="94" Click="Delete_Click" />
+        <Button Content="Назад" x:Name="Bak"  HorizontalAlignment="Left" Margin="306,332,0,0" VerticalAlignment="Top" Width="94" Click="Bak_Click"  />
+        <TextBlock HorizontalAlignment="Left" Margin="180,43,0,0" x:Name="ID"    Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
